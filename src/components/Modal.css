@@ -1,0 +1,184 @@
+.modal--container {
+    display: flex;
+    position: fixed;
+    padding: 25px 100px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    border: 3px solid #ccc;
+    color: #000;
+    width: 60vw;
+    height: 70vh;
+    top: 15vh;
+    right: 20vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.modal--container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal--container::-webkit-scrollbar-track {
+    background-color: #555;
+}
+
+.modal--container::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 0, 76);
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.cards--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards--container h1 {
+    font-size: 33px;
+    max-width: 90%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cards--container img {
+    width: 20vw;
+    height: 25vh;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.cards--container span {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.cards--container p {
+    max-width: 92%;
+    font-size: 20px;
+}
+.cards--container a {
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: var(--color-main);
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.area--buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding: 0 50px;
+    top: 30vh;
+    right: 0;
+    width: 60vw;
+}
+#btn-modal-close {
+    font-size: 35px;
+    position: absolute;
+    right: 1vw;
+    cursor: pointer;
+    color: var(--bs-body-color);
+    transition: all ease 0.5s;
+}
+#btn--nav--back,
+#btn--nav--next {
+    font-size: 10vh;
+    color: var(-bs-body-color);
+    cursor: pointer;
+    transition: var(--transition);
+}
+#btn--nav--back:hover,
+#btn--nav--next:hover,
+#btn-modal-close:hover {
+    color: var(--color-main);
+}
+.cards--container a:hover {
+    background-color: rgb(255, 0, 76);
+}
+
+@media (max-width: 1400px) {
+    .cards--container h1 {
+        font-size: 22px;
+        max-width: 100%;
+    }
+    .cards--container img {
+        width: 18vw;
+        height: 22vh;
+        margin: 10px 0;
+    }
+    .cards--container p {
+        font-size: 14px;
+    }
+    .cards--container a {
+        padding: 10px 25px;
+        margin-bottom: -20px;
+        transition: all ease 0.5s;
+    }
+}
+
+@media (max-width: 1280px) {
+    .modal--container {
+        padding: 25px 100px;
+        width: 90vw;
+        height: 70vh;
+        right: 5vw;
+    }
+    .cards--container h1 {
+        font-size: 30px;
+    }
+    .cards--container img {
+        width: 40vw;
+        height: 25vh;
+        margin: 20px 0;
+    }
+    #btn--nav--back,
+    #btn--nav--next {
+        font-size: 75px;
+    }
+    .area--buttons {
+        display: flex;
+        width: 90vw;
+    }
+    .cards--container p {
+        font-size: 18px;
+    }
+}
+@media (max-width: 600px) {
+    .cards--container h1 {
+        font-size: 24px;
+        width: 80vw;
+        margin-top: 15px;
+    }
+
+    #btn-modal-close {
+        top: 2px;
+        font-size: 32px;
+    }
+    #btn--nav--back,
+    #btn--nav--next {
+        font-size: 45px;
+    }
+
+    .area--buttons {
+        width: 90vw;
+        padding: 0 10px;
+        margin-right: -9px;
+        justify-content: space-between;
+    }
+    .cards--container img {
+        width: 60vw;
+        height: 25vh;
+        margin: 20px 0;
+    }
+    .cards--container p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .cards--container a {
+        padding: 10px 25px;
+        margin-bottom: 10px;
+    }
+}

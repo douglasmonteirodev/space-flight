@@ -1,0 +1,15 @@
+.btn-pagination {
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all ease 0.1s;
+}
+.area--btn-pagination {
+    text-align: center;
+    margin: 55px;
+}
+.btn-pagination:hover {
+    background-color: rgb(255, 0, 76);
+    color: #eee;
+}
