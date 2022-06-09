@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd75c485.css",
+    "main.js": "/static/js/main.5df17523.js",
+    "static/media/astronauta.png": "/static/media/astronauta.0abff7b9e636d9656a00.png",
+    "index.html": "/index.html",
+    "main.fd75c485.css.map": "/static/css/main.fd75c485.css.map",
+    "main.5df17523.js.map": "/static/js/main.5df17523.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd75c485.css",
+    "static/js/main.5df17523.js"
+  ]
+}
