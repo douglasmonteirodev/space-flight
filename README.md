@@ -1,6 +1,4 @@
-# SPACE FLIGHT NEWS
-
-## Projeto usando React e React-Router_Dom
+# SPACE FLIGHT NEWS COM REACT
 
 <p align="center">
       <img src="src/assets/preview/home_preview.png">
