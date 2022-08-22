@@ -2,6 +2,10 @@
 
 ## Projeto usando React e React-Router_Dom
 
+<p align="center">
+      <img src="src/assets/preview/home_preview.png">
+ </p>
+
 ## GitPage: https://douglasmonteirodev.github.io/space-flight/build
 
 ## Informações
@@ -27,4 +31,4 @@
 
 ## Link do video explicativo no YT: https://youtu.be/S9uSxYxNkec
 
-# Douglas Monteiro ❤😎
+### Douglas Monteiro ❤😎
